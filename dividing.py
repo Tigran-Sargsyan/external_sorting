@@ -1,3 +1,5 @@
+"""A program that divides the main file into 20 chunks which will be sorted independently and the will be merged into each other"""
+
 main_file = open("big.txt","r")
 chunk1 = open("chunk1.txt", "w")
 chunk2 = open("chunk2.txt", "w")
