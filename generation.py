@@ -1,3 +1,5 @@
+"""A program that generates 1 000 000 000 integers in the interval [0,1 000 000]"""
+
 import random
 
 file = open("big.txt","w")
