@@ -1,3 +1,5 @@
+"""A program that merges the 20 sorted chunks into a new sorted file"""
+
 output = open("sorted.txt","w")
 chunk1 = open("chunk1.txt", "r+")
 chunk2 = open("chunk2.txt", "r+")
