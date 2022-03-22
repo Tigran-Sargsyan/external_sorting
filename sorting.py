@@ -1,3 +1,5 @@
+"""A program that sorts the 20 chunks using the quicksort algorithm"""
+
 def quicksort(arr):
 
     if len(arr) < 2:
